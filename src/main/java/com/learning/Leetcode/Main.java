@@ -1,7 +1,7 @@
 package com.learning.Leetcode;
 
 import com.learning.Leetcode.Stack.MinStack;
-import com.learning.Leetcode.Stack.Solutions;
+import com.learning.Leetcode.twoPointers.Solutions;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,13 +16,14 @@ public class Main {
 	 * 	- Map
 	 * 	- Hashing!
 	 * 	- Stack
+	 * 	- Regex
 	 */
 	public static void main(String[] args) {
 
-		int[] temperatures = {73,74,75,71,69,72,76,73};
-		System.out.println(Arrays.toString(Solutions.dailyTemperatures(temperatures)));
+		int[] numbers = {-2,0,1,1,2};
+		System.out.println(Solutions.threeSum(numbers));
 
-		/**
+		/*
 		 MinStack obj = new MinStack();
 		 obj.push(2);
 		 obj.push(0);
